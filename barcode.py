@@ -10,9 +10,9 @@ obj_qr = qrcode.QRCode(
 )
 
 #using the add_data() function
-obj_qr.add_data("https://github.com/Niruifedi")
+obj_qr.add_data("https://debbies-dictionary.netlify.app/")
 
 #using the make_image() function
-qr_img = obj_qr.make_image(fill_color = "red", back_color = "black")
+qr_img = obj_qr.make_image(fill_color = "blue", back_color = "white")
 #save the file in jpg format for easy access
-qr_img.save("gitprofile.jpg")
+qr_img.save("debdictionary.jpg")
